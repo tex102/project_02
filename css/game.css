@@ -1,0 +1,65 @@
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: url("spikes.png"); }
+.soldier       { background: url("ewok_soldier.png"); }
+.wall          { background: url("floor_01.png");   }
+.wood		   { background: url("floor_02.png");}
+
+
+
+.ewok1 { background: url("ewoks_01.png");}
+.ewok2 { background: url("ewoks_02.png");}
+.ewok3 { background: url("ewoks_03.png");}
+
+
+
+.actor  { position: absolute;  }
+/*.coin   { background: url("ewoks_01.png"); }
+/*.player { background: rgb(64, 64, 64); }
+*/
+.player { background: url("trooper_right.gif") ;}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+
+.right .player{background: url("trooper_right.gif") ;}
+.left .player{background: url("trooper_left.gif");}
+
+.lost .player { /* what happens when the play loses */ 
+  background: url("trooper_death.gif");
+  background-audio: src(audio/Scream.wave);
+
+}
+
+/*
+.won .player { /* what happens when the player wins 
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+<body>
+
+<img id="left" src="trooper_animation_left.gif"><br><br>
+<img id="right" src="trooper_animation_right.gif">
+
+</body>
+*/
